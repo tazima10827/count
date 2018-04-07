@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F56714B204A8C9600FF2440 /* applecampus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F56714A204A8C9600FF2440 /* applecampus3.jpg */; };
 		9FA65D94204A88C600710492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA65D93204A88C600710492 /* AppDelegate.swift */; };
 		9FA65D96204A88C700710492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA65D95204A88C700710492 /* ViewController.swift */; };
 		9FA65D99204A88C700710492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA65D97204A88C700710492 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F56714A204A8C9600FF2440 /* applecampus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = applecampus3.jpg; sourceTree = "<group>"; };
 		9FA65D90204A88C600710492 /* count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = count.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA65D93204A88C600710492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FA65D95204A88C700710492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				9FA65D9A204A88C700710492 /* Assets.xcassets */,
 				9FA65D9C204A88C700710492 /* LaunchScreen.storyboard */,
 				9FA65D9F204A88C700710492 /* Info.plist */,
+				9F56714A204A8C9600FF2440 /* applecampus3.jpg */,
 			);
 			path = count;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FA65D9E204A88C700710492 /* LaunchScreen.storyboard in Resources */,
+				9F56714B204A8C9600FF2440 /* applecampus3.jpg in Resources */,
 				9FA65D9B204A88C700710492 /* Assets.xcassets in Resources */,
 				9FA65D99204A88C700710492 /* Main.storyboard in Resources */,
 			);

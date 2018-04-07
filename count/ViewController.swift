@@ -8,7 +8,12 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var count: UILabel! //CountLabel
+    var number:Int = 0
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +25,37 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func plus(_ sender: Any) {
+        number += 1
+        count.text = String(number)
+        if number >= 10{
+            count.textColor = UIColor.blue
+        }
+    }
+    
+    @IBAction func minus(_ sender: Any) {
+        number -= 1
+        count.text = String(number)
+        if number <= 10{
+            count.textColor = UIColor.white
+        }
+    }
+    
+    @IBAction func kakeru(_ sender: Any) {
+        number *= 2
+        count.text = String(number)
+        if number >= 10{
+            count.textColor = UIColor.blue
+        }
+    }
+    
+    @IBAction func waru(_ sender: Any) {
+        number /= 2
+        count.text = String(number)
+        if number >= 10{
+            count.textColor = UIColor.white
+        }
+    }
+    
 }
 
